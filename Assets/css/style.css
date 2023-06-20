@@ -1,0 +1,507 @@
+/* ///////////////////navbar section//////////////////// */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway:wght@700&display=swap');
+
+a { color: inherit !important; } 
+
+body{
+  background-color: #FAF9F5 !important;
+}
+
+.navbar {
+  background: #f8ecc5;
+  box-shadow: 0px 4px 4px rgba(83, 83, 83, 0.5);
+  /* height: 50px !important; */
+}
+
+.navtxt {
+  /* font-family: 'Open Sans' !important; */
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  line-height: 20px !important;
+  color: #000000 !important;
+}
+.navbar-toggler-icon {
+  color: #000000 !important;
+  /* background-color: #000000 !important; */
+}
+
+.navbutlogin {
+  width: 102px !important;
+  height: 32px !important;
+  background: #9b0000 !important;
+  border-radius: 8px !important;
+  /* font-family: 'Raleway' !important; */
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  /* identical to box height */
+  color: #ffffff !important;
+}
+.navimgprofile{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.navprofdrpitem{
+  font-size: 12px !important;
+  /* font-family: Open Sans, Bold !important; */
+  font-weight: 800 !important;
+
+}
+
+
+.pagetitle {
+  /* padding-top: 50px !important; */
+  color: #8A8A8A  !important  ;
+}
+
+/* /////////////footer part ///////// */
+.footer {
+  background: #f8ecc5;
+}
+.footer-link-text {
+  /* font-family: 'Open Sans'; */
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+a {
+  text-decoration: none !important;
+}
+.copyright {
+  /* font-family: 'Open Sans'; */
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+/* ////////////////////Dashboard Myevents section//////////////////// */
+.dashboardmyevents{
+  height: 229px  !important;
+  border-radius: 0px !important;
+}
+.bannerprofpic{
+  width: 74px !important;
+  height: 74px !important;
+  border-radius: 50%;
+}
+.profname{
+  font-family: Open Sans, Bold;
+  font-size: 30px ;
+  color: white !important;
+}
+.bannerconatiner{
+  margin-top: 67px;
+  border-radius: 0px !important;
+}
+.upbar{
+  background-color: white !important;
+  color: #A8A8A8 !important;
+  border: 0.5px solid #d1d1d1 !important;
+  height: 89px !important;
+font-size: 18px !important;
+box-shadow:   0px 1px 1px;
+}
+.btnbar{
+  color :#A8A8A8!important;
+  font-size: 18px !important;
+  
+}
+.myentsline{
+  border-bottom: 1px solid black;
+}
+
+.createevndbutton{
+  width: 133px;
+height: 39px;
+/* UI Properties */
+background: #E94D4D 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+border: 0px;
+color: white;
+}
+.crdevt{
+  box-shadow: 0px 0px  0px #72727229 !important;
+border: 1px solid #D8D8D8 !important;
+border-radius: 10px !important;
+
+}
+.myeventhead{
+  font-size: 32px !important;
+  /* font-family: Open S.ans, Bold; */
+  font-style: bold !important;
+  font-weight: 700;
+}
+.evntname{
+  font-size: 24px !important;
+  font-weight: 700;
+}
+.evnnameans{
+  font-size: 24px;
+  font-weight: 400;
+  /* font-style: Raleway, Regular !important; */
+}
+.evnthdsub{
+  font-size: 16px;
+  font-weight: 600;
+}
+.evnanssub{
+  font-size: 16px;
+}
+.readmoreevnt{
+  font-size: 16px;
+  font-weight: 700;
+  color: #011AF3;
+}
+btn:focus, a:focus, dropdown:focus
+{
+         outline: none !important;
+         box-shadow: none !important;
+}
+.navbar-toggler:focus
+{
+         outline: none !important;
+         box-shadow: none !important;
+}
+
+.btnbar:focus{
+  outline: none !important;
+         box-shadow: none !important;
+  /* box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 25%)!important; */
+}
+
+.modalcreatevent{
+  font-size: 20px!important;
+  width: 150px !important;
+}
+.modaladdyourevnt{
+  font-size: 24px!important;
+  width: 250px !important;
+  color: #A8A8A8 !important;
+}
+.drpcrtevntmodl{
+  width: 100% !important;
+}
+.btndrpcrtevnt{
+  border:1px solid #c4c4c4 !important;
+  border-radius: 20px !important;
+}
+
+.createevntmodal input{
+  border-radius: 20px !important;
+}
+.createevntmodal button{
+  border-radius: 20px !important;
+}
+
+
+.readmoremodelhead{
+  font-size: 32px !important;
+  font-family: Raleway !important;
+  font-weight: 700;
+}
+.modaltextevent{
+font-family: Open Sans !important;
+font-size:  20px !important;
+font-weight: 700;
+width: 185px;
+}
+.modalinpevent{
+  background: #FBFBFB 0% 0% no-repeat padding-box !important;
+  border: 1px solid #D4D4D4 !important;
+  border-radius: 8px !important;
+  opacity: 1 !important;
+  font-family: Raleway, Regular !important;
+  font-size : 16px !important;
+  height: 42px !important;
+  color: #000000 !important;
+}
+.modal-lgg{
+  max-width: 1000px !important;
+  border-radius: 20px !important;
+}
+
+.addyoureventstext{
+  font-family: 24px !important;
+  font-size: 24px !important;
+  color: #979797 !important;
+  font-weight: 600;
+}
+.lisubcategory{
+  text-decoration: underline gray !important;
+  
+}
+
+/* ////////////////////////////////wishlist */
+.wishlistimg{
+height: 151px !important;
+width: 226px !important;
+border-radius: 10px 10px 0px 0px !important;
+}
+.crdwishlist{
+  width: 227px !important;
+height: auto !important;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box !important;
+box-shadow: 0px 3px 6px #00000029 !important;
+border: 1px solid #D8D8D8 !important;
+border-radius: 10px !important;
+}
+.crdwishlistnm{
+  font-size: 14px !important;
+}
+.crdwishlistrating{
+  color: orange !important;;
+}
+.crdwishlistlocation{
+  font-size: 14px;
+  color: #A8A8A8;
+}
+.cancellogo{
+  color: red;
+}
+/* ////////////Booked Event section////// */
+.cardbookedevnt{
+border: none !important;
+}
+.bookedevnthead{
+  border:1px solid #C1C1C1;
+  background-color: #E8E8E8;
+  font-size: 16px!important;
+  font-weight: 700;
+  height: 75px;
+
+}
+.bookedeventpic{
+  width: 143px !important;
+height: 92px !important;
+}
+.bookedeventslist{
+  height: 153px;
+  border:1px solid #C1C1C1;
+  font-size: 16px!important;
+  color: #A8A8A8;
+}
+/* /////////////invitaion////////// */
+.inviationcrd{
+  width: 206px !important;
+  font-size: 21PX !important;
+  border-radius: 10px !important;
+  box-shadow: 0px 3px 6px #000000 !important;
+  font-family: 'Times New Roman', Times, serif;
+}
+.invitationimg{
+  width: px !important;
+height: 196px !important;
+
+border-radius: 10px 10px 0px 0px !important; 
+}
+/* ////////////////////////////////// */
+.crdinvitaioncreate{
+  width: 80% !important;
+  height: auto !important;
+  border-radius: 20px !important;
+  background-color: #FFFFFF !important;
+}
+.ivitationformtext{
+  font-size: 20px !important;
+  font-weight: 700 !important;
+}
+.ivitationforminput{
+  width: 206px !important;
+height: 45px !important;
+border-radius: 8px !important;
+border: 1px solid #D4D4D4 !important;
+padding-left: 30px;
+}
+
+
+/* //////////////Guest List ///////////////// */
+.guestlistheading{
+  background-color: #E8E8E8;
+  border: 1px solid #C1C1C1;
+  height: 75px;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+.guestlistheadingbtn{
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  background-color:#E8E8E8 !important;
+  border: none !important;
+}
+.guestlistlist{
+  background-color: #ffffff;
+  border: 1px solid #DBDBDB;
+  height: 75px;
+  font-size: 16px !important;
+  color: #A8A8A8 !important;
+}
+.btn-guestlist-invite{
+  border-radius: 10px !important;
+}
+
+.rowaddguestmodal{
+  background-color: #eeeeee !important;
+  border: 1px solid #B5B4B4 !important;
+  border-radius: 20px !important;
+  width: 831px !important;
+font-size: 20px !important;
+font-family: Open Sans, Regular !important;
+}
+.modalsize{
+  width: 1024px !important;
+}
+.btncss{
+  color: red !important;
+}
+
+/* ///////////////////Profile Section /////////////////////////////// */
+.profilesubhead{
+  font-style: normal;
+  font-family: Raleway !important;
+  font-size: 20px !important;
+}
+
+.profileform{
+  background-color: white;
+  border-radius: 20px !important;
+}
+.imagePreview {
+ 
+height: 74px !important;
+width: 74px !important;
+border-radius: 50% !important;
+border: 1px solid black !important;
+/* background-image: url("/Assets/img/booked-events/hallpic.png"); */
+}
+.profformtext{
+font-size: 20px !important;
+text-align: center !important;
+font-weight: 700;
+letter-spacing: 0px !important;
+font-family: Open Sans !important;
+}
+.profiledelete{
+  font-size: 16px !important;
+  font-family: 'Raleway'!important;
+}
+.profileupdate{
+  font-size: 16px !important;
+  color: #1018EF;
+  font-family: 'Raleway'!important;
+  font-weight: 600;
+}
+.profinpsec{
+  background: #FBFBFB 0% 0% no-repeat padding-box !important;
+border: 1px solid #D4D4D4 !important;
+border-radius: 8px !important;
+opacity: 1 !important;
+padding-left:   20px;
+height: 45px !important;
+}
+.profsubmitbtn{
+  background: #E94D4D 0% 0% no-repeat padding-box !important;
+border-radius: 10px !important;
+font-size: 14px !important;
+font-family:Open 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+width: 133px !important;
+height: 39px !important ;
+}
+.addguestmodalhead{
+  font-size: 32px !important;
+  font-family: Raleway !important;
+  font-weight: 700;
+}
+.addguestmodelform{
+  font-size: 20px !important;
+  font-family: Open Sans;
+  font-weight: 800;
+}
+.inpaddguest{
+  height: 45px !important;
+  border: 1px solid #D4D4D4 !important;
+  background: #FBFBFB 0% 0% no-repeat padding-box !important;
+  border-radius: 8px !important;
+  color: #000000 !important;
+  font-size: 16 px !important;
+  font-family: Raleway, Regular !important;
+  font-weight: 400 !important;
+}
+.sbmitbtmadguest{
+  border-radius: 10px !important;
+  background-color: #E94D4D !important;
+  font-size: 14px !important;
+  color: white !important;
+  height: 39px !important;
+  width: 133px !important;
+}
+.invitformsubmit{
+  height: 39px !important;
+  width: 133px !important;
+  background-color: #E94D4D !important;
+  border-radius: 10px !important;
+  font-size: 14px !important;
+}
+
+
+
+/* ///////////////////helpdesk Section /////////////////////////////// */
+.box{
+  background: #FBFBFB 0% 0% no-repeat padding-box;
+  border: 1px solid #D4D4D4;
+  border-radius: 8px;
+  opacity: 1;
+  height: 45px !important;
+  padding-left: 20px !important;
+  color: #000000 !important;
+  font-family: Raleway, Regular !important;
+}
+
+/* ///////////////////feedback Section /////////////////////////////// */
+.rating-color{
+  color:#fbc634 !important;
+}
+
+.add{
+ background: #D4D4D4 0% 0% no-repeat padding-box;
+border: 10px solid #D4D4D4;
+border-radius: 8px;
+opacity: 1;
+}
+
+.plus{
+  width: 63px;
+height: 63px;
+border: 1px solid #D4D4D4;
+border-radius: 8px;
+opacity: 1;
+}
+
+
+/* overlay  */
+.navtxtvenues:hover .overlay{
+  bottom: 0;
+  height: 200px;
+}
+.overlay {
+  position: absolute;
+  top: 68px !important;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #f8ecc5;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+
+}
